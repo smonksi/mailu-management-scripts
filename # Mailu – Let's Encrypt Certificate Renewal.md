@@ -175,11 +175,11 @@ Repeat for other hostnames if necessary.
 
 ## Quick renewal checklist
 
-- [ ] Resolver container healthy.
-- [ ] DNSSEC validation successful (`ad` flag).
-- [ ] Invalid DNSSEC domain returns `SERVFAIL`.
-- [ ] Mailu hostname resolves correctly from Unbound.
-- [ ] Mailu hostname resolves correctly from the frontend.
+- [x] Resolver container healthy.
+- [x] DNSSEC validation successful (`ad` flag).
+- [x] Invalid DNSSEC domain returns `SERVFAIL`.
+- [x] Mailu hostname resolves correctly from Unbound.
+- [x] Mailu hostname resolves correctly from the frontend.
 - [ ] Router TCP 80 and 443 temporarily forwarded to the VM being updated.
 - [ ] Let's Encrypt renewal successful.
 - [ ] Certificate expiry dates verified.
